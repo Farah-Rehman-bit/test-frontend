@@ -51,6 +51,47 @@
       </section>
       <section id="contact">
      <h2>Contact</h2>
+
+       <form action="#" method="post">
+        <p>
+            <label for="name">Full name</label><br>
+            <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+            <label for="email">Email address</label><br>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+        </p>
+
+        <fieldset>
+            <legend>Reason for contact</legend>
+            <input type="radio" id="job" name="reason" value="job" checked>
+            <label for="job">Job opportunity</label>
+            <input type="radio" id="collab" name="reason" value="collaboration">
+            <label for="collab">Collaboration</label>
+        </fieldset>
+
+        <p>
+            <label for="topic">Topic</label><br>
+            <select id="topic" name="topic">
+                <option value="web">Web development</option>
+                <option value="hardware">Electronics projects</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" id="updates" name="updates" value="yes">
+            <label for="updates">Send me updates about new projects</label>
+        </p>
+
+        <button type="submit">Send message</button>
+    </form>
+
 <ul>
   <li><a href="mailto:youremail@example.com">Email me</a></li>
   <li><a href="https://www.linkedin.com/in/farah-rehman-0a595a392" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
