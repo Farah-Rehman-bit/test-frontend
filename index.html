@@ -5,6 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farah Rehman | Portfolio</title>
+    <style>
+        .messege-btn{
+            color: white;
+            background-color: green;
+            font-weight: bold;
+            margin: 5px;
+            border-radius: 3px;
+            width: 140px;
+            height: 60px;
+            font-size: 1em;
+            transition: background-color 1s,color 1s, opacity 0.15;
+            box-shadow: 5px 5px 10px rgba(0,230,0,0.15);
+            cursor: pointer;
+            border-style: solid;
+
+        }
+        .messege-btn:hover{
+               color: green;
+            background-color: white;
+            transition: background-color 1s , color 1s;
+        }
+        .messege-btn:active{
+            opacity: 0.5;
+        }
+    </style>
 </head>
 
 <body>
@@ -89,7 +114,7 @@
             <label for="updates">Send me updates about new projects</label>
         </p>
 
-        <button type="submit">Send message</button>
+        <button type="submit" class="messege-btn">Send message</button>
     </form>
 
 <ul>
